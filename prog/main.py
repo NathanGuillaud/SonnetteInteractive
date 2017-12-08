@@ -15,7 +15,7 @@ while test:        #boucle infinie
 	button_status= digitalRead(bouton)    #On lit l'état du bouton (appuyé ou non)
 #	print("Ca doit être toujours 0 avant appui : " + str(button_status))
 	if button_status:    #Si le bouton a été appuyé
-       		nom = "photo-"+time.strftime("%Y-%m-%d-%H-%M")+".jpg" #Récupération du nom de la photo
+#       		nom = "photo-"+time.strftime("%Y-%m-%d-%H-%M")+".jpg" #Récupération du nom de la photo
 		print(nom)
 
 		setText("Prise de la\nphoto") #Affichage d'un message à l'écran
