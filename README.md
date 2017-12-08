@@ -1,2 +1,2 @@
 # SonnetteInteractive
-version 2
+version 3.0
